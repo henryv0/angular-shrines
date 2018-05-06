@@ -1,0 +1,26 @@
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+  margin: 1em;
+}
+
+.badge {
+  display: inline-block;
+  background-color: lightgray;
+  /* color: #fff; */
+  height: 25px;
+  width: 50px;
+  border-radius: 25px;
+  text-align: center;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+.selected .badge {
+  background-color: gray;
+  color: #fff;
+}
